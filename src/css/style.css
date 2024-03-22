@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
 :root{
     --azul-cielo:#1E90FF;
@@ -20,4 +20,13 @@
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
+}
+
+.nav{
+
+}
+
+.nav a{
+    color: var(--blanco);
+    text-decoration:none ;
 }
