@@ -33,10 +33,20 @@
     text-decoration:none ;
 }
 
-.titulomain {
+.principal{
 
 }
 
-#imagen_cazafantasmas{
-    
+.titulomain{
+display: flex;
 }
+
+#estrenos{
+
+}
+
+.contenedor{
+    display: flex;
+}
+
+
