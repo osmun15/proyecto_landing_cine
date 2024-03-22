@@ -38,7 +38,8 @@
 }
 
 .titulomain{
-display: flex;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #estrenos{
@@ -47,6 +48,7 @@ display: flex;
 
 .contenedor{
     display: flex;
+    margin-top: 50px;
 }
 
 
