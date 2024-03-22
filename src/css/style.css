@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+:root{
+    --azul-cielo:#1E90FF;
+    --blanco:#ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Audiowide", sans-serif;
+}
+
+.header{
+    background-color: var(--azul-cielo);
+    color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
