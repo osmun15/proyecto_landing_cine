@@ -4,6 +4,7 @@
 :root{
     --azul-cielo:#1E90FF;
     --blanco:#ffffff;
+    --azul-palido:#B0E0E6;
 }
 
 *{
@@ -33,22 +34,98 @@
     text-decoration:none ;
 }
 
-.principal{
-
-}
 
 .titulomain{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
+    font-size:xx-large;
+    background-color: var(--azul-cielo);
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 35px;
 }
 
-#estrenos{
+.titulomain_2{
+    text-align: center;
+    margin-top: 90px;
+    font-size:xx-large;
+    background-color: var(--azul-cielo);
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 90px;
+}
 
+.titulomain_3{
+    text-align: center;
+    margin-top: 90px;
+    font-size:xx-large;
+    background-color: var(--azul-cielo);
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 90px;
+}
+
+.titulomain_4{
+    text-align: center;
+    margin-top: 15px;
+    font-size:larger;
+    background-color: var(--azul-palido);
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 90px;
+}
+
+.boton{
+    text-align: center;
+    height: 40px;
+    width: 90px;
+    background-color: var(--azul-palido);
+    gap: 100px;
 }
 
 .contenedor{
+    margin-top: 55px;
     display: flex;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    gap:10px ;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
 }
 
+.contenedor_2{
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px ;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;  
+}
 
+.contenedor_3{
+    margin-top: 35px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}
+
+.contenedor_4{
+    margin-top: 10px;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer{
+    background-color: var(--azul-cielo);
+    color: var(--blanco);
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
